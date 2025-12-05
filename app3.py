@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
 
-df = pd.read_csv("Loan_approval_data_2025.csv")
+df = pd.read_csv("data/Loan_approval_data_2025.csv")
 
 # Configuration de la page
 st.set_page_config(
